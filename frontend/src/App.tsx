@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import {Dashboard} from "./features/dashboard/Dashboard";
+import { Dashboard } from './features/dashboard/Dashboard';
 
 interface AppProps {}
 
 function App({}: AppProps) {
-  return (<div>
-      <Dashboard/>
-    </div>
+  return (
+    <>
+      <Dashboard />
+    </>
   );
 }
 

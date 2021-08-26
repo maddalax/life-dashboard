@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4433a65-9d3f-4c71-99a8-7b6ef7cff658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/common/Utility.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/Dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/note/NoteItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/note/Notes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/note/useNotes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/features/nav/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/common/Breakpoints.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/common/Colors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/common/hooks/useMobile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/structure/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/structure/MobileNav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/layout/structure/MobileSidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/dashboard/note/NoteItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/note/NoteItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/features/dashboard/note/Notes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/features/dashboard/note/Notes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/structure/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/structure/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layout/structure/MobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layout/structure/MobileNav.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1629976461664</updated>
       <workItem from="1629976469569" duration="31000" />
-      <workItem from="1629976913246" duration="14508000" />
+      <workItem from="1629976913246" duration="17442000" />
     </task>
     <servers />
   </component>

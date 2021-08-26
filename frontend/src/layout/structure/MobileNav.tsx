@@ -7,6 +7,8 @@ const Nav = styled.nav`
   position: sticky;
   top: 0;
   color: white;
+  width: 100vw;
+  z-index: 30;
 `;
 
 const NavContent = styled.nav`
@@ -32,7 +34,7 @@ const Logo = styled.div`
 `;
 
 const Menu = styled.div`
-  margin-right: 8px;
+  margin-right: 21px;
   font-size: 18pt;
 `;
 

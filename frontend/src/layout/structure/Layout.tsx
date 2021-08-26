@@ -8,8 +8,11 @@ import { MobileNav } from './MobileNav';
 import { MobileSidebar } from './MobileSidebar';
 
 const Container = styled.div`
-  padding: 2em;
   min-height: 100vh;
+`;
+
+const Wrapper = styled.div`
+  overflow-x: hidden;
 `;
 
 export function Layout({ children }: { children: any }) {
@@ -29,7 +32,7 @@ export function Layout({ children }: { children: any }) {
   `;
 
   return (
-    <>
+    <Wrapper>
       {isMobile && sidebarOpen && <MobileSidebar />}
       <Structure>
         {isMobile ? (
@@ -39,6 +42,6 @@ export function Layout({ children }: { children: any }) {
         )}
         <Container onClick={() => setSidebarOpen(false)}>{children}</Container>
       </Structure>
-    </>
+    </Wrapper>
   );
 }

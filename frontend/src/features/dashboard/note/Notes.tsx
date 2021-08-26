@@ -7,6 +7,7 @@ import { IoAddCircle } from 'react-icons/all';
 import { useNotes } from './useNotes';
 
 const NoteGrid = styled.div`
+  padding: 2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;

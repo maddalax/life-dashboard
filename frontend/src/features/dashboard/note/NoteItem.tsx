@@ -16,6 +16,7 @@ const Wrapper = styled.div`
   &:hover {
     opacity: 85%;
   }
+  overflow: hidden;
 `;
 
 const DeleteButton = styled.div`
@@ -25,8 +26,6 @@ const DeleteButton = styled.div`
   font-size: 14pt;
   cursor: pointer;
 `;
-
-const Editable = styled.div``;
 
 export function NoteItem({
   note,
@@ -47,9 +46,14 @@ export function NoteItem({
     }
   }, [editing]);
 
+  useEffect(() => {
+    if (editor.current) {
+      editor.current.innerHTML = note.text;
+    }
+  }, [editor]);
+
   return (
     <Wrapper
-      data-placeholder="Edit me"
       contentEditable={true}
       ref={editor}
       onClick={() => {
@@ -65,13 +69,12 @@ export function NoteItem({
         }
       }}
       onInput={() => {
-        value.current = editor.current.innerText;
+        value.current = editor.current.innerHTML;
       }}
     >
       <DeleteButton onClick={() => onDelete(note.id)}>
         <AiFillCloseCircle />
       </DeleteButton>
-      <Editable>{note.text}</Editable>
     </Wrapper>
   );
 }
